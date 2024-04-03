@@ -6,19 +6,19 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team build an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Cross-chain NFT marketplace',
+        description: "Founding Engineer at OmniX, a blockchain-based ecosystem of community-driven worlds, games, and dApps connected by a seamless, interoperable experience via the LayerZero protocol. Engaged with LayerZeroScan's Top 10 Protocols to foster collaborative partnerships and shared insights",
+        tools: ['Next.js', 'Tailwind Css', 'Layerzero', 'OpenAI API', 'GCP', 'TSED', 'GraphQL', 'PostgreSQL'],
+        role: 'Lead Full Stack Engineer',
         code: '',
         demo: '',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Liquidity Staking Protocol',
+        description: 'Demonstrated expertise in backend development by implementing a solution in Nest.js that reduced traffic by 20%, contributing to overall system performance and scalability.',
+        tools: ['Solidity', 'Next.js', 'Tailwind CSS', "NestJS", "TypeScript", "Subgraph"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -26,23 +26,13 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. To develop the API, we used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose. For the UI, we utilized NextJS, Formik, TailwindCSS, and other npm libraries. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'GameFi Platform',
+        description: 'Revamped and maintained both the old and new game designs, optimizing user experience and engagement. Collaborated with project managers to formulate and execute cost-saving and resource optimization strategies, contributing to a streamlined development process.',
+        tools: ['React', 'SCSS', 'TSED', 'TypeScript', 'MongoDB', 'AWS', 'OpenAI API', 'Cronjob', 'JWT'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
         image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
     }
 ];
 
